@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard android:keyWidth="8.899999%p" android:keyHeight="@dimen/key_height" android:horizontalGap="0.99999905%p" android:verticalGap="0.69999695%p"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Row>
+        <Key android:codes="49" android:keyEdgeFlags="left" android:iconPreview="@drawable/symbol11_p" android:keyIcon="@drawable/uyghurshift1" />
+        <Key android:codes="50" android:iconPreview="@drawable/symbol12_p" android:keyIcon="@drawable/uyghurshift2" />
+        <Key android:codes="51" android:iconPreview="@drawable/symbol13_p" android:keyIcon="@drawable/uyghurshift3" />
+        <Key android:codes="52" android:iconPreview="@drawable/symbol14_p" android:keyIcon="@drawable/uyghurshift4" />
+        <Key android:codes="53" android:iconPreview="@drawable/symbol15_p" android:keyIcon="@drawable/uyghurshift5" />
+        <Key android:codes="54" android:iconPreview="@drawable/symbol16_p" android:keyIcon="@drawable/uyghurshift6" />
+        <Key android:codes="55" android:iconPreview="@drawable/symbol17_p" android:keyIcon="@drawable/uyghurshift7" />
+        <Key android:codes="56" android:iconPreview="@drawable/symbol18_p" android:keyIcon="@drawable/uyghurshift8" />
+        <Key android:codes="57" android:iconPreview="@drawable/symbol19_p" android:keyIcon="@drawable/uyghurshift9" />
+        <Key android:codes="48" android:keyEdgeFlags="right" android:iconPreview="@drawable/symbol10_p" android:keyIcon="@drawable/uyghurshift0" />
+    </Row>
+    <Row>
+        <Key android:codes="64" android:keyEdgeFlags="left" android:iconPreview="@drawable/symbol21_p" android:keyIcon="@drawable/uyghurshift21" />
+        <Key android:codes="35" android:iconPreview="@drawable/symbol22_p" android:keyIcon="@drawable/uyghurshift22" />
+        <Key android:codes="36" android:popupCharacters="«" android:iconPreview="@drawable/symbol23_p" android:keyIcon="@drawable/uyghurshift23" />
+        <Key android:codes="37" android:popupCharacters="»" android:iconPreview="@drawable/symbol24_p" android:keyIcon="@drawable/uyghurshift24" />
+        <Key android:codes="38" android:popupCharacters="؛" android:iconPreview="@drawable/symbol25_p" android:keyIcon="@drawable/uyghurshift25" />
+        <Key android:codes="42" android:popupCharacters="،" android:iconPreview="@drawable/symbol26_p" android:keyIcon="@drawable/uyghurshift26" />
+        <Key android:codes="45" android:iconPreview="@drawable/symbol27_p" android:keyIcon="@drawable/uyghurshift27" />
+        <Key android:codes="61" android:iconPreview="@drawable/symbol28_p" android:keyIcon="@drawable/uyghurshift28" />
+        <Key android:codes="40" android:iconPreview="@drawable/symbol29_p" android:keyIcon="@drawable/uyghurshift29" />
+        <Key android:codes="41" android:keyEdgeFlags="right" android:iconPreview="@drawable/symbol20_p" android:keyIcon="@drawable/uyghurshift20" />
+    </Row>
+    <Row>
+        <Key android:keyWidth="13.0%p" android:codes="-1" android:keyEdgeFlags="left" android:isModifier="true" android:isSticky="true" android:keyIcon="@drawable/sym_keyboard_shift" />
+        <Key android:codes="33" android:iconPreview="@drawable/symbol32_p" android:keyIcon="@drawable/uyghurshift32" />
+        <Key android:codes="34" android:iconPreview="@drawable/symbol33_p" android:keyIcon="@drawable/uyghurshift33" />
+        <Key android:codes="39" android:iconPreview="@drawable/symbol34_p" android:keyIcon="@drawable/uyghurshift34" />
+        <Key android:codes="58" android:iconPreview="@drawable/symbol35_p" android:keyIcon="@drawable/uyghurshift35" />
+        <Key android:codes="59" android:iconPreview="@drawable/symbol36_p" android:keyIcon="@drawable/uyghurshift36" />
+        <Key android:codes="47" android:iconPreview="@drawable/symbol37_p" android:keyIcon="@drawable/uyghurshift37" />
+        <Key android:codes="63" android:iconPreview="@drawable/symbol38_p" android:keyIcon="@drawable/uyghurshift38" />
+        <Key android:keyWidth="14.999998%p" android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true" android:keyIcon="@drawable/sym_keyboard_delete" />
+    </Row>
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyWidth="18.000008%p" android:codes="-2" android:keyEdgeFlags="left" android:keyIcon="@drawable/sym_keyboard_done" />
+        <Key android:keyWidth="14.999998%p" android:codes="-6" android:keyIcon="@drawable/abc2" />
+        <Key android:keyWidth="26.0%p" android:codes="32" android:isRepeatable="true" android:keyIcon="@drawable/sym_keyboard_space" />
+        <Key android:keyWidth="14.999998%p" android:codes="44" android:iconPreview="@color/Transparent" android:keyIcon="@drawable/symbols44" />
+        <Key android:keyWidth="20.000004%p" android:codes="10" android:keyEdgeFlags="right" android:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</Keyboard>

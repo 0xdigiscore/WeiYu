@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  android:orientation="vertical" 
+  android:background="@drawable/skb_container_bg"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <ViewFlipper android:id="@+id/alpha_floatable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+      <com.zhg.bfm.input.SoftKeyboardView android:id="@+id/alpha_view1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+      <com.zhg.bfm.input.SoftKeyboardView android:id="@+id/alpha_view2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  </ViewFlipper>
+  <RelativeLayout android:id="@+id/matrix_container" android:background="@drawable/normal_key_bg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.zhg.bfm.input.MatrixView android:id="@+id/matrix_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+  </RelativeLayout>
+  <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:background="@drawable/phone_white1_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="252.0" />
+        <com.hanvon.inputmethod.calla.view.StrokeView android:id="@+id/stroke_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="68.0" android:layout_alignRight="@id/alpha_floatable" />
+  </LinearLayout>
+  <com.hanvon.inputmethod.calla.view.HWCandidateView android:id="@+id/hw_cand_view" android:visibility="visible" android:layout_width="@dimen/cand_view_width" android:layout_height="fill_parent" android:layout_marginLeft="-70.0dip" android:layout_alignRight="@id/alpha_floatable" />
+  <RelativeLayout android:id="@+id/brightness_view" android:background="#24000000" android:layout_width="wrap_content" android:layout_height="wrap_content"></RelativeLayout>
+</RelativeLayout>

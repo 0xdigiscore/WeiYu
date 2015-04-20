@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+ * Copyright 2010 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Titles for IME  -->
+    <string name="ime_name">维语输入法正式版</string>
+    <string name="app_name">维语</string>
+    <!-- Preference settings -->
+    <string name="pref_licensing">授权信息</string>
+    <string name="pref_vibrate_title">按键震动</string>
+    <string name="pref_ui">界面设置</string>
+    <string name="pref_sound_title">按键音效</string>
+    <string name="pref_keyboard_preview_title">按键提示</string>
+    <string name="pref_keyboard_preview_summary">打字速度较快时建议关闭</string>
+    <string name="pref_py_prompt_title">编码提示</string>
+    <string name="pref_cand_num">候选项数</string>
+    <string name="pref_cand_font_size">候选字号</string>
+    <string name="pref_cand_max_phrase">候选词长</string>
+    <string name="unlimited">不限</string>
+    <string name="pref_key_font_size">键盘字号</string>
+
+    <string name="pref_function">功能设置</string>
+    <string name="pref_init_chinese">初始中文</string>
+    <string name="pref_full_py_title">全码输入</string>
+    <string name="pref_full_py_summary">禁用渐进提示，出字慢时建议开启</string>
+    <string name="pref_single_title">单字模式</string>
+    <string name="pref_association_title">词语联想</string>
+    <string name="pref_sc_title">输出简体</string>
+    <string name="pref_commit_py_title">输出编码</string>
+    <string name="pref_commit_py_summary">出字时标出编码，如：拼音(pin yin)</string>
+    <string name="pref_importdb">导入码表</string>
+    <string name="pref_importdb_summary">从SD卡根目录导入*.db或.yaml码表</string>
+    <string name="pref_exportdb">导出码表</string>
+    <string name="pref_exportdb_summary">将码表导出至SD卡根目录</string>
+
+    <string name="set_ime">全局设定</string>
+    <string name="set_schema">设定本方案</string>
+    <string name="other_ime">其他输入法</string>
+    <string name="pronunciation">【%s】的编码</string>
+    <string name="close">关闭</string>
+     <string name="initdb_message">正在初始化码表</string>
+    <string name="importdb_message">正在导入“%s”</string>
+    <string name="importdb_success">码表导入成功</string>
+    <string name="importdb_failure">码表导入失败</string>
+    <string name="exportdb_message">正在导出码表</string>
+    <string name="exportdb_success">码表导出成功</string>
+    <string name="exportdb_failure">码表导出失败</string>
+     <string name="toggle_cn">0</string>
+    <string name="toggle_cn_cand">1</string>
+    <string name="toggle_en_lower">2</string>
+    <string name="toggle_en_upper">3</string>
+    <string name="toggle_en_sym1">4</string>
+    <string name="toggle_en_sym2">5</string>
+    <string name="toggle_smiley">6</string>
+    <string name="toggle_enter_go">7</string>
+    <string name="toggle_enter_search">8</string>
+    <string name="toggle_enter_send">9</string>
+    <string name="toggle_enter_next">10</string>
+    <string name="toggle_enter_done">11</string>
+    <string name="toggle_row_cn">12</string>
+    <string name="toggle_row_en">13</string>
+    <string name="toggle_row_uri">14</string>
+    <string name="toggle_row_emailaddress">15</string>
+    <string name="toggle_phone_sym">3</string>
+    <string name="toggle_hw">16</string>
+    <string name="toggle_enter_go_en">17</string>
+    <string name="toggle_enter_search_en">18</string>
+    <string name="toggle_enter_next_en">19</string>
+    <string name="toggle_enter_done_en">20</string>
+    <string name="toggle_enter_send_en">21</string>
+    <string name="toggle_hw_space">22</string>
+    <string name="toggle_hw_other">23</string>
+    <string name="toggle_cn_word">24</string>
+    <string name="toggle_abc_off">25</string>
+    <string name="toggle_abc_on">26</string>
+    <string name="toggle_symbol_unlock">27</string>
+    <string name="toggle_symbol_lock">28</string>
+    <string name="toggle_symbol_lock_del">29</string>
+     <string name="keyboard_switch">切换</string>
+    <string name="keyboard_edit">编辑</string>
+    <string name="keyboard_qwerty_cn">全键盘拼音</string>
+    <string name="keyboard_qwerty_en">全键盘英文</string>
+    <string name="keyboard_phone_cn">数字拼音</string>
+    <string name="keyboard_stroke">笔画</string>
+    <string name="keyboard_hw">手写</string>
+    <string name="symbol_common">常用</string>
+    <string name="edit_clear">清空</string>
+    <string name="edit_select_all">全选</string>
+    <string name="edit_cut">剪切</string>
+    <string name="edit_copy">复制</string>
+    <string name="edit_paste">粘贴</string>
+    <string name="tab_general">设置</string>
+    <string name="tab_skin">皮肤</string>
+    <string name="tab_hot_word">热词</string>
+    <string name="tab_guide">向导</string>
+    <string name="tab_words">词库</string>
+
+</resources>

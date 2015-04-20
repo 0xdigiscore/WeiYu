@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<keyboard 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10.000002%p"
+    android:keyHeight="@dimen/key_height" 
+    android:horizontalGap="0.0px" 
+    android:verticalGap="0.0px">
+    <row>
+        <key  android:keyWidth="30.000004%p" icon="@drawable/hw_backspace" icon_popup="@drawable/hw_backspace_hl" code="67" repeat="true" />
+    </row>
+    <row>
+        <key icon="@drawable/hw_space" icon_popup="@drawable/hw_space_hl" code="62" repeat="true" key_type="13">
+            <toggle_state state_id="@string/toggle_hw_space" icon="@drawable/hw_space" icon_popup="@drawable/hw_space_hl" key_type="13" balloon="false" />
+            <toggle_state state_id="@string/toggle_hw_other" icon="@drawable/hw_other" icon_popup="@drawable/hw_other_hl" key_type="13" balloon="false" />
+        </key>
+    </row>
+    <row>
+        <key icon="@drawable/hw_enter" icon_popup="@drawable/hw_enter_hl" code="66" repeat="true" />
+    </row>
+    <row>
+        <key icon="@drawable/hw_123" icon_popup="@drawable/number123" key_type="22" code="-8" width="11.875%p" height="25%p" />
+        <key icon="@drawable/hw_swtich" icon_popup="@drawable/hw_switch_hl" code="-2" width="9.375%p" height="25%p" key_type="12" />
+    </row>
+</keyboard>

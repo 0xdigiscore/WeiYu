@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout"
+        android:padding="0.0dip"
+        android:layout_margin="0.0dip"
+        android:layout_width="fill_parent" 
+        android:layout_height="45.0dip">
+        <ImageView  android:id="@+id/wimeButton" 
+                    android:padding="0.0dip" 
+                    android:clickable="true" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/w2" 
+                    android:scaleType="fitXY" />
+                <ImageView 
+                    android:id="@+id/limeButton"
+                    android:padding="0.0dip" 
+                    android:clickable="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" 
+                    android:src="@drawable/u1" 
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@id/wimeButton" 
+                    android:layout_centerVertical="true" />
+                <ImageView 
+                    android:id="@+id/zimeButton" 
+                    android:padding="0.0dip" 
+                    android:clickable="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/z1" 
+                    android:scaleType="fitXY" 
+                    android:layout_toRightOf="@id/limeButton" />
+                <ImageView 
+                    android:id="@+id/yimeButton" 
+                    android:padding="0.0dip"
+                    android:clickable="true" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/y1" 
+                    android:scaleType="fitXY"
+                    android:layout_toRightOf="@id/zimeButton" 
+                    android:layout_centerVertical="true" />
+                <LinearLayout 
+                    android:orientation="horizontal" 
+                    android:visibility="visible" 
+                    android:layout_width="wrap_content" 
+                    android:layout_height="fill_parent" 
+                    android:layout_alignParentRight="true">
+                    <ImageView 
+                        android:id="@+id/setButton" 
+                        android:paddingLeft="18.0dip"
+                        android:paddingRight="18.0dip" 
+                        android:clickable="true" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="fill_parent"
+                        android:src="@drawable/set_night" />
+                    <ImageView 
+                        android:id="@+id/application" 
+                        android:paddingLeft="18.0dip" 
+                        android:paddingRight="18.0dip" 
+                        android:clickable="true" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="fill_parent" 
+                        android:src="@drawable/applicationwall_night" />
+                    <ImageView 
+                        android:gravity="right" 
+                        android:id="@+id/pulldown" 
+                        android:paddingLeft="18.0dip" 
+                        android:paddingRight="18.0dip" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="fill_parent" 
+                        android:src="@drawable/pulldown" />
+                </LinearLayout>
+ </RelativeLayout>

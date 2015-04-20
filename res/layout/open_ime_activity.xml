@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="#ff8cbde3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout 
+        android:gravity="center_horizontal" 
+        android:orientation="horizontal" 
+        android:paddingTop="30.0dip" 
+        android:paddingBottom="15.0dip" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content">
+        <ImageView 
+            android:paddingRight="10.0dip" 
+            android:layout_width="60.0dip" 
+            android:layout_height="60.0dip" 
+            android:src="@drawable/app_icon" />
+        <TextView 
+            android:textAppearance="?android:textAppearanceLarge" 
+            android:textSize="25.0sp" 
+            android:textStyle="bold" 
+            android:textColor="#ffffffff" 
+            android:layout_gravity="center_vertical" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:text="@string/open_zoozee_ime" />
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:background="@drawable/open_ime_big_bg" 
+        android:paddingLeft="20.0dip" 
+        android:paddingTop="30.0dip" 
+        android:paddingRight="20.0dip" 
+        android:paddingBottom="15.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20.0dip" 
+        android:layout_marginRight="20.0dip">
+        <TextView 
+            android:textSize="20.0sp" 
+            android:textColor="#ff4881b7" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="@string/open_zoozee_ime_1" />
+        <Button 
+            android:textSize="16.0sp" 
+            android:textColor="#ffffffff" 
+            android:gravity="center_horizontal" 
+            android:id="@+id/open_select_button"
+            android:background="@drawable/open_ime_button" 
+            android:paddingTop="8.0dip" 
+            android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/open_zoozee_ime_select" />
+    </LinearLayout>
+    <LinearLayout 
+        android:orientation="vertical" 
+        android:background="@drawable/open_ime_big_bg" 
+        android:paddingLeft="20.0dip" 
+        android:paddingTop="30.0dip" 
+        android:paddingRight="20.0dip" 
+        android:paddingBottom="15.0dip" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="20.0dip" 
+        android:layout_marginTop="10.0dip" 
+        android:layout_marginRight="20.0dip">
+        <TextView 
+            android:textSize="20.0sp" 
+            android:textColor="#ff4881b7" 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="@string/open_zoozee_ime_2" />
+        <Button 
+            android:textSize="16.0sp" 
+            android:textColor="#ffffffff" 
+            android:gravity="center_horizontal" 
+            android:id="@+id/open_switch_button" 
+            android:background="@drawable/open_ime_button" 
+            android:paddingTop="8.0dip" 
+            android:paddingBottom="8.0dip" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="20.0dip" 
+            android:layout_marginBottom="10.0dip" 
+            android:text="@string/open_zoozee_ime_switch" />
+    </LinearLayout>
+</LinearLayout>

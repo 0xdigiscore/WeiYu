@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skb_template skb_bg="@drawable/skb_bg" key_xmargin="0.625%p" key_ymargin="0%p" balloon_bg="@drawable/ballon_white" popup_bg="@drawable/miniskb_bg" balloon_bg_left="@drawable/balloon_white_left" balloon_bg_right="@drawable/balloon_white_right" color="@android:color/black" color_highlight="@color/label_color" color_balloon="@color/balloon_color">
+    <key_type id="0" bg="@drawable/normal_key_bg" hlbg="@drawable/space_bg" color_highlight="@android:color/black" />
+    <key_type id="1" bg="@drawable/function_bg" hlbg="@drawable/function_bg_hl" color="@color/function_color" color_highlight="@color/function_color_hl" />
+    <key_type id="2" bg="@drawable/function_bg" hlbg="@drawable/function_bg_hl" />
+    <key_type id="3" bg="@drawable/function_bg" hlbg="@drawable/function_bg_hl" />
+    <key_type id="4" />
+    <key_type id="5" bg="@drawable/normal_key_bg" hlbg="@drawable/normal_key_hl_bg" color_highlight="@color/label_color_hl0" />
+    <key_type id="6" bg="@drawable/function_bg" hlbg="@drawable/function_bg_hl" color="@color/function_color" />
+    <key_type id="7" bg="@drawable/normal_key_bg" hlbg="@drawable/space_bg" color="@color/function_color_hl" color_highlight="@color/function_color" />
+    <key_type id="8" bg="@drawable/bg" hlbg="@drawable/bg_hl" color="@color/function_color" color_highlight="@color/pause_wait_hl_color" />
+    <key_type id="9" bg="@drawable/bg" hlbg="@drawable/bg" />
+    <key_type id="10" bg="@drawable/search_bg" hlbg="@drawable/function_bg_hl" color="@color/function_color" color_highlight="@color/function_color_hl" />
+    <key_type id="11" bg="@drawable/bg_hl" hlbg="@drawable/bg" color="@color/function_color" color_highlight="@color/pause_wait_hl_color" />
+    <key_type id="12" bg="@drawable/bg2" hlbg="@drawable/bg_hl" color="@color/function_color" color_highlight="@color/pause_wait_hl_color" />
+    <key_type id="13" bg="@drawable/bg_hl" hlbg="@drawable/bg_space" color="@color/function_color" color_highlight="@color/pause_wait_hl_color" />
+    <key_type id="14" bg="@drawable/normal_key_bg" hlbg="@drawable/space_bg" color="@color/function_black_color_hl" color_highlight="@color/function_black_color_hl" />
+    <key_type id="15" bg="@drawable/phone_black_bg" hlbg="@drawable/phone_black_bg_hl" />
+    <key_type id="16" bg="@drawable/phone_black2_bg" hlbg="@drawable/phone_black2_bg_hl" />
+    <key_type id="17" bg="@drawable/phone_white1_bg" hlbg="@drawable/phone_white1_bg" />
+    <key_type id="18" bg="@drawable/phone_white2_bg" hlbg="@drawable/phone_white2_bg_hl" />
+    <key_type id="19" bg="@drawable/phone_black_bg" hlbg="@drawable/phone_black_bg" />
+    <key_type id="20" bg="@drawable/phone_black2_bg" hlbg="@drawable/phone_black2_bg" />
+    <key_type id="21" bg="@drawable/normal_key_bg" hlbg="@drawable/space_bg" color="@color/seperate_color_hl" color_highlight="@color/seperate_color_hl" />
+    <key_type id="22" bg="@drawable/hw_black_bg" hlbg="@drawable/hw_black_bg_hl" color="@color/function_color" color_highlight="@color/pause_wait_hl_color" />
+    <key_type id="23" bg="@drawable/normal_key_bg" hlbg="@drawable/space_bg" color_highlight="@android:color/black" />
+    <key_icon code="66" icon="@drawable/enter_icon" icon_popup="@drawable/enter_popup_icon" />
+    <key_icon code="62" icon="@drawable/space_icon" icon_popup="@drawable/space_icon" />
+    <key_icon code="67" icon="@drawable/delete_icon" icon_popup="@drawable/delete_popup_icon" />
+    <key_icon code="-2" icon="@drawable/language_icon" icon_popup="@drawable/language_icon_hl" />
+    <key id="1" start_pos_x="78.25%p" start_pos_y="79.63%p" width="21.75%p" height="19.445%p" code="66" key_type="1" balloon="false">
+        <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66" />
+        <toggle_state state_id="@string/toggle_enter_search" code="66" label="搜索" key_type="10" />
+        <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66" />
+        <toggle_state state_id="@string/toggle_enter_next" label="下一个" code="66" />
+        <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66" />
+        <toggle_state state_id="@string/toggle_enter_go_en" label="Go" code="66" />
+        <toggle_state state_id="@string/toggle_enter_search_en" code="66" label="Search" key_type="10" />
+        <toggle_state state_id="@string/toggle_enter_send_en" label="Send" code="66" />
+        <toggle_state state_id="@string/toggle_enter_next_en" label="Next" code="66" />
+        <toggle_state state_id="@string/toggle_enter_done_en" label="Done" code="66" />
+    </key>
+    <key id="2" start_pos_x="75%p" start_pos_y="79.63%p" width="25%p" height="19.445%p" code="66" key_type="1" balloon="false">
+        <toggle_state state_id="@string/toggle_enter_go" label="去往" code="66" />
+        <toggle_state state_id="@string/toggle_enter_search" code="66" label="搜索" key_type="10" />
+        <toggle_state state_id="@string/toggle_enter_send" label="发送" code="66" />
+        <toggle_state state_id="@string/toggle_enter_next" label="下一个" code="66" />
+        <toggle_state state_id="@string/toggle_enter_done" label="完成" code="66" />
+        <toggle_state state_id="@string/toggle_enter_go_en" label="Go" code="66" />
+        <toggle_state state_id="@string/toggle_enter_search_en" code="66" label="Search" key_type="10" />
+        <toggle_state state_id="@string/toggle_enter_send_en" label="Send" code="66" />
+        <toggle_state state_id="@string/toggle_enter_next_en" label="Next" code="66" />
+        <toggle_state state_id="@string/toggle_enter_done_en" label="Done" code="66" />
+    </key>
+    <key id="3" start_pos_x="86.783%p" start_pos_y="54.631%p" width="13.217%p" height="19.445%p" code="67" key_type="1" repeat="true" balloon="false" />
+    <key id="4" code="-8" start_pos_x="0%p" start_pos_y="79.63%p" width="13%p" height="19.445%p" key_type="6" label="123" icon="@drawable/hw_123" icon_popup="@drawable/number123" balloon="false" />
+    <key id="5" code="-3" start_pos_x="0%p" start_pos_y="79.63%p" width="13%p" height="19.445%p" key_type="6" label="ABC" balloon="false" />
+    <key id="6" start_pos_x="13%p" start_pos_y="79.63%p" width="13%p" height="19.445%p" code="-2" key_type="1" repeat="true" balloon="false" />
+    <key id="7" start_pos_x="25.625%p" start_pos_y="79.63%p" width="13.75%p" height="19.445%p" label="." key_type="0" icon="@drawable/period_icon" icon_popup="@drawable/period_popup_icon" />
+    <key id="8" start_pos_x="14.283%p" start_pos_y="54.631%p" label="Z" code="54" key_type="0" width="10%p" height="19.445%p" repeat="false" balloon="true" />
+    <key id="9" start_pos_x="15.588%p" start_pos_y="54.631%p" label="。" key_type="0" width="14.000%p" height="19.445%p" repeat="false" balloon="true">
+        <toggle_state state_id="@string/toggle_en_sym1" label="." />
+        <toggle_state state_id="@string/toggle_en_sym2" label="." />
+    </key>
+</skb_template>

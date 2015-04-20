@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.app.keyboard.CandidatesContainer
+     android:orientation="horizontal" 
+     android:id="@+id/candidates_container" 
+     android:background="@drawable/cands_container_bg" 
+     android:layout_width="fill_parent" 
+     android:layout_height="45.0dip"
+     xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+       <ViewFlipper 
+        android:id="@+id/candidate_flipper" 
+        android:layout_width="fill_parent" 
+        android:layout_height="45.0dip" 
+        android:inAnimation="@anim/push_left_in"   
+        android:outAnimation="@anim/push_left_out" 
+        android:layout_centerVertical="true">
+       <RelativeLayout
+            android:id="@+id/suggetion_util"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerVertical="true" >
+            <ImageButton
+                android:id="@+id/setting_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5.0dip"
+                android:background="@drawable/setting_button_bg"
+                android:clickable="true"
+                android:padding="5.0dip"
+                android:src="@drawable/multi_setting" />
+           <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="28.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_toRightOf="@id/setting_btn"
+                android:layout_toLeftOf="@id/setting_hide_keyboard" 
+                 >
+
+                <Button
+                    android:id="@+id/setting_keyboard"
+                    android:layout_width="80.0dip"
+                    android:layout_height="42.0dip"
+                 
+                    android:background="@drawable/setting_select_button"
+                    android:text="@string/keyboard_switch"
+                    android:textColor="#ff000000"
+                    android:textSize="@dimen/cand_button_text_size" />
+
+                <Button
+                    android:id="@+id/setting_edit"
+                    android:layout_width="80.0dip"
+                    android:layout_height="42.0dip"
+                    android:layout_marginLeft="32dip"
+                    android:background="@drawable/setting_select_button"
+                    android:text="@string/keyboard_edit"
+                    android:textColor="#ff000000"
+                    android:textSize="@dimen/cand_button_text_size" />
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/setting_hide_keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/linearLayout1"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/setting_button_bg"
+                android:clickable="true"
+                android:padding="5.0dip"
+                android:src="@drawable/hide_keyboard" />
+        </RelativeLayout>
+        <RelativeLayout 
+            android:id="@+id/suggetion_symbol" 
+            android:layout_width="fill_parent" 
+            android:layout_height="fill_parent" 
+            android:layout_centerVertical="true">
+             <view 
+                android:id="@+id/candidate_view1" 
+                android:layout_width="fill_parent" 
+                android:layout_height="45dip" 
+                android:layout_toLeftOf="@id/arrow_left_btn"
+                android:layout_toRightOf="@id/arrow_right_btn"
+                class="net.app.view.CandidateView"/>
+          
+        </RelativeLayout>
+    </ViewFlipper>
+ </net.app.keyboard.CandidatesContainer>

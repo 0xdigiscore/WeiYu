@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="2.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_weight="3.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="3.0dip">
+                <ImageView android:layout_gravity="center" 
+                     android:id="@+id/edit_up"
+                     android:clickable="true" 
+                     android:layout_width="@dimen/edit_item_wight" 
+                     android:layout_height="@dimen/edit_item_height" 
+                     android:src="@drawable/edit_up" />
+                <RelativeLayout 
+                    android:orientation="horizontal" 
+                    android:layout_width="fill_parent" 
+                    android:layout_height="wrap_content">
+                    <ImageView 
+                        android:id="@+id/edit_left" 
+                        android:clickable="true" 
+                        android:layout_width="36.0dip" 
+                        android:layout_height="@dimen/edit_item_height" 
+                        android:src="@drawable/edit_left" 
+                        android:layout_alignParentLeft="true" />
+                    <ImageView 
+                        android:id="@+id/edit_right" 
+                        android:clickable="true" 
+                        android:layout_width="36.0dip" 
+                        android:layout_height="@dimen/edit_item_height" 
+                        android:src="@drawable/edit_right" 
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+                <ImageView 
+                    android:layout_gravity="center" 
+                    android:id="@+id/edit_down" 
+                    android:clickable="true" 
+                    android:layout_width="@dimen/edit_item_wight" 
+                    android:layout_height="@dimen/edit_item_height" 
+                    android:src="@drawable/edit_down" />
+            </LinearLayout>
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:background="@drawable/horizontal_line" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="5.0dip" 
+                android:layout_marginTop="5.0dip" 
+                android:layout_marginRight="5.0dip" />
+            <TextView 
+                android:textSize="16.0dip" 
+                android:textColor="#ff000000" 
+                android:gravity="center" 
+                android:layout_gravity="center" 
+                android:id="@+id/edit_clear" 
+                android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/edit_item_height" android:layout_marginTop="0.0dip" android:text="@string/edit_clear" />
+        </LinearLayout>
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:background="@drawable/vertical_line" 
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_marginTop="5.0dip" 
+            android:layout_marginBottom="5.0dip" />
+        <LinearLayout 
+            android:orientation="vertical" 
+            android:layout_width="@dimen/edit_item_wight" 
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="5.0dip" 
+            android:layout_weight="1.0">
+            <TextView 
+                android:textSize="16.0dip" 
+                android:textColor="#ff000000" 
+                android:gravity="center" 
+                android:layout_gravity="center" 
+                android:id="@+id/edit_select_all" 
+                android:clickable="true" 
+                android:layout_width="fill_parent" 
+                android:layout_height="@dimen/edit_item_height" 
+                android:text="@string/edit_select_all" />
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:background="@drawable/horizontal_line" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="5.0dip" 
+                android:layout_marginRight="5.0dip" />
+            <TextView 
+                android:textSize="16.0dip" 
+                android:textColor="#ff000000" 
+                android:gravity="center" 
+                android:layout_gravity="center" 
+                android:id="@+id/edit_cut" 
+                android:clickable="true" 
+                android:layout_width="fill_parent" 
+                android:layout_height="@dimen/edit_item_height" 
+                android:layout_marginTop="0.0dip" 
+                android:text="@string/edit_cut" />
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:background="@drawable/horizontal_line" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="5.0dip" 
+                android:layout_marginRight="5.0dip" />
+            <TextView 
+                android:textSize="16.0dip" 
+                android:textColor="#ff000000" 
+                android:gravity="center" 
+                android:layout_gravity="center" 
+                android:id="@+id/edit_copy" 
+                android:clickable="true" 
+                android:layout_width="fill_parent" 
+                android:layout_height="@dimen/edit_item_height" 
+                android:layout_marginTop="0.0dip" 
+                android:text="@string/edit_copy" />
+            <LinearLayout 
+                android:orientation="vertical" 
+                android:background="@drawable/horizontal_line" 
+                android:layout_width="fill_parent" 
+                android:layout_height="wrap_content" 
+                android:layout_marginLeft="5.0dip" 
+                android:layout_marginRight="5.0dip" />
+            <TextView 
+                 android:textSize="16.0dip"
+                 android:textColor="#ff000000" 
+                 android:gravity="center" 
+                 android:layout_gravity="center" 
+                 android:id="@+id/edit_paste" 
+                 android:clickable="true" 
+                 android:layout_width="fill_parent" 
+                 android:layout_height="@dimen/edit_item_height" 
+                 android:layout_marginTop="0.0dip" 
+                 android:text="@string/edit_paste" />
+        </LinearLayout>
+    </LinearLayout>
